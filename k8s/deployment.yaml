@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: pipelines-vote-ui
-  name: pipelines-vote-ui
+  name: pipelines-vote-ui-test
 spec:
   replicas: 1
   selector:
